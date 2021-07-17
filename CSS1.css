@@ -1,0 +1,39 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    display: block;
+    background-color: lightgrey;
+}
+
+.tab{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+#leftColumn{
+    background-color: blue;
+    float: left;
+    width: 29%;
+}
+
+#rightColumn{
+    background-color: green;
+    float: left;
+    width: 70%;
+}
+
+#topLeft{
+    display: inline-block;
+    width: 100%;
+    background-color: orange;
+}
+
+#botLeft{
+    display: block;
+    width: 100%;
+    background-color: red;
+}
